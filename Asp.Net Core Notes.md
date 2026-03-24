@@ -46,3 +46,33 @@
 
 
 
+**Lecture :- 08 ( Middleware in asp.net core )**
+
+
+
+\-> A middleware is a software that habdles http request or response
+
+\-> A given middleware component have very specific purpose like
+
+&#x20; 1. To authenticate the user
+
+&#x20; 2. To handle errors
+
+&#x20; 3. To show static files
+
+\-> It's the pipeline which decides how a request is processed
+
+\-> A middleware processed the incoming request and then passed it to next midddleware
+
+\-> A middleware can decide that too whether it needs to passed request to another middleware or not \& this is called short circuting
+
+\-> A middleware can ignore request too
+
+\-> These middleware are availiable as nuget pacakages , this means we can update each middleware seprately
+
+&#x20;
+
+
+
+&#x20;
+
