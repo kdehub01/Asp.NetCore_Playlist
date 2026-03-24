@@ -17,6 +17,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseStaticFiles() ; // to use static files which are in present in wwwroot folder
+
+app.UseDefaultFiles() ; // When we wanna use default documents
+
 app.UseHttpsRedirection();
 app.UseRouting();
 

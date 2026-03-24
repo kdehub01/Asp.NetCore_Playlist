@@ -100,11 +100,31 @@
 
 
 
+**Lecture :- ( Static files in asp net core )**
 
 
 
+\-> All static files must be in wwwroot folder which is inside project root folder
+
+\-> app.UseStaticFiles()
+
+\-> We can display those static files too which are not in wwwroot folder but through some other way
+
+\-> By default default name of an document is ( default.htm or default.html or index.htm or index.html )
+
+\-> These oders are also matter
+
+&#x20;   app.UseStaticFiles() ; 
 
 
+
+&#x20;   app.UseDefaultFiles() ;
+
+\-> If usedafultfiles use before usestaticfiles , then only document files will get shows
+
+\-> You can use app.UsefileServer() too after removing usestaticfiles \& usedafultfiles
+
+\-> And to customise them we create object of that which contains this extension method
 
 
 
