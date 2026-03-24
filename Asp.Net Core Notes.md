@@ -144,6 +144,30 @@
 
 
 
+**Lecture :- ( ASP NET Core environment variables ) ( Pending )**
+
+
+
+
+
+**Lecture :- ( ASP NET Core MVC tutorial )**
+
+
+
+\-> Model View Controller
+
+\-> It have multiple layers majorly ( User Interface Layer , Buisness Logic Layer , Data Access Layer )
+
+\-> We use DI because its loosely coupled 
+
+
+
+
+
+
+
+
+
 
 
 
