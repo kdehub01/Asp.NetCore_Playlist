@@ -20,5 +20,29 @@
 
 
 
+**Lecture :- 08 ( Asp.net core appsetting.json file )**
+
+
+
+\-> Before asp.net core we store configuration information in webconfig file , but in asp.net core we store application configuration settings in appsetting.json file
+
+\-> appsetting.json is kind of configuration sources file
+
+\-> these configuration are usually stored as a key value pair
+
+\-> To access all those configuration which we write in appsetting.json file , those we access through Iconfiguration Service
+
+\-> In asp.net core dependency injection is an integral part
+
+\-> Settings which are present in enviornment specific file , those will override in normal appsetting.json file
+
+\-> Later configuration source override the setting of that key which is present in previously configuration source
+
+\-> If we wanna give configuration through commandline then run ( dotnet run "mykey" = "value }
+
+\-> We can add our custom configuration source too \& order can also be change according to us
+
+
+
 
 
