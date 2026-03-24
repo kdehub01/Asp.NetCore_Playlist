@@ -130,6 +130,18 @@
 
 
 
+**Lecture :- ( ASP NET Core developer exception page )**
+
+
+
+\-> app.UseDeveloperExceptionPage()
+
+\-> To customise this developerexception page , we create a object of developerexceptionpageoptions
+
+\-> There's a property sourcecodelinecount property in this which shows how many lines u wanna show on a error page
+
+
+
 
 
 
