@@ -74,5 +74,109 @@
 
 
 
-&#x20;
+**Lecture :- ( Configure ASP NET Core request processing pipeline )**
+
+
+
+\-> app.Run() :- a method which response to an every object
+
+\-> A request delegate is something which takes HttpContext as a parameter
+
+\-> A terminal middleware is a middleware that's does not call the next request in the pipeline , so for that we use app.Use() method which takes two parameter one is Context \& Next
+
+
+
+**app.Use(async (context , next) =>**
+
+**{**
+
+&#x20;  **await context.Repponse.WriteAsync("Welcome Back");**
+
+&#x20;  **await next() :- to call next middleware**
+
+**})**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

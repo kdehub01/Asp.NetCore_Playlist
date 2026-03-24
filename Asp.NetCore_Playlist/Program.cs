@@ -5,6 +5,10 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+//This is a method which response to an every object
+app.Run();
+
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
