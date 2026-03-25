@@ -21,6 +21,9 @@ namespace Asp.NetCore_Playlist.Controllers
         public string Index()
         {
             return _employeeRepository.GetEmployee(1).Name;
+            // return View("xyz") :- when we wanna return some other view
+            //return View("MyTempViews/tempviiew.cshtml") :- when we wanna return some other view which is not inside views folder , so for that we used absolute path ( file extension also required in this case )
+            //return View("../SomeCustomViews/customviewfile") :- this .. means to move one level up in a hierarchy
             //return View();
         }
 

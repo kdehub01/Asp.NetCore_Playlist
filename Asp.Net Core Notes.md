@@ -256,7 +256,15 @@ with the help of above line when homecontroller request to IEmployeeRepository s
 
 
 
+**Lecture :- ( Customize view discovery in asp net core mvc )**
 
+
+
+\-> Basically we can return view() with or without data
+
+\-> return View("../SomeCustomViews/customviewfile") :- this .. means to move one level up in a hierarchy
+
+no of levels up , u have to add that number of dots like for 2 level up 4 dots need
 
 
 
