@@ -270,7 +270,29 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
+**Lecture :- ( Passing data to view in ASP NET Core MVC )**
 
+
+
+\-> There are 3 ways to pass data from controller to view 
+
+&#x20;  1. ViewData ( Loosely Typed )
+
+&#x20;  2. ViewBag ( Loosely Typed )
+
+&#x20;  3. Strongly Typed View
+
+\-> ViewData :- Dictionary of weeakly typed objects
+
+&#x09;       Use string keys to store data
+
+&#x09;       Dynamically resolved at runtime
+
+&#x20;              No compile time checking	
+
+\-> View is a kind of razor view in which we write C# \& html code together
+
+&#x09;       	
 
 
 
