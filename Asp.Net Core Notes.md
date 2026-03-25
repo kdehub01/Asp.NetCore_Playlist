@@ -244,6 +244,14 @@ with the help of above line when homecontroller request to IEmployeeRepository s
 
 
 
+**Lecture :- ( Views in ASP NET Core MVC )**
+
+\-> In mvc it looks for a view inside a name of that folder which is matached with controller name
+
+\-> View name should be same as a method name
+
+\-> Extension os this file is .cshtml
+
 
 
 
