@@ -1,12 +1,14 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddMvc(); // to add all mvc services we required 
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
 //This is a method which response to an every object
-app.Run();
+//app.Run();
 
 
 // Configure the HTTP request pipeline.
@@ -18,6 +20,8 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseStaticFiles() ; // to use static files which are in present in wwwroot folder
+
+//app.UseMvcWithDefaultRoute(); // to configure mvc route & this looks for default Home Controller & Index Method
 
 app.UseDefaultFiles() ; // When we wanna use default documents
 

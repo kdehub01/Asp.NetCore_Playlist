@@ -114,7 +114,7 @@
 
 \-> These oders are also matter
 
-&#x20;   app.UseStaticFiles() ; 
+&#x20;   app.UseStaticFiles() ;
 
 
 
@@ -158,7 +158,27 @@
 
 \-> It have multiple layers majorly ( User Interface Layer , Buisness Logic Layer , Data Access Layer )
 
-\-> We use DI because its loosely coupled 
+\-> We use DI because its loosely coupled
+
+
+
+
+
+**Lecture :- ( Setup mvc in asp net core )**
+
+
+
+\-> AddMvc() :- to add all the mvc services we required
+
+\-> app.UseMvcWithDefaultRoute()
+
+\-> If something is using with services then it's a service , but if something is using with app.something then its a middleware
+
+\-> Before to use UseMvcWithDefaultRoute() we have to add AddMvc() in program.cs file
+
+
+
+
 
 
 
