@@ -192,6 +192,16 @@
 
 
 
+**Lecture :- ( Model in ASP NET Core MVC )**
+
+
+
+\-> A models in mvc that contains set of setup of classess which represent \& manage data
+
+\-> We use interface in our mvc project because for dependency injection \& without this unit testing also become difficult to do
+
+&#x20;
+
 
 
 
