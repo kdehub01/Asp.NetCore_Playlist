@@ -180,6 +180,14 @@
 
 
 
+**Lecture :- ( ASP NET Core AddMvc vs AddMvcCore )**
+
+
+
+\-> AddMvc() method internally calls AddMvcCore() method also
+
+\-> AddMvcCore() method only uses core services but Addmvc() use all the required mvc services
+
 
 
 

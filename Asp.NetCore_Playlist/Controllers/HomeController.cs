@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 namespace Asp.NetCore_Playlist.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controller // this Controller class present in Microsoft.AspNetCore.Mvc
     {
         public IActionResult Index()
         {
