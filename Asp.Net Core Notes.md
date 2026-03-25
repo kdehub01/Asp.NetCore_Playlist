@@ -228,9 +228,17 @@ with the help of above line when homecontroller request to IEmployeeRepository s
 
 
 
+**Lecture :- ( Controller in ASP NET Core MVC )**
 
 
 
+\-> A controller in mvc is class that derived fron Controller base class 
+
+\-> A name of controller class ends with Controller
+
+\-> A set of methods inside this controller is called an action methods
+
+\-> Basically data pass fron controller to view through binding with model
 
 
 
