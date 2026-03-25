@@ -200,9 +200,29 @@
 
 \-> We use interface in our mvc project because for dependency injection \& without this unit testing also become difficult to do
 
-&#x20;
 
 
+
+
+**Lecture :- ( ASP NET Core dependency injection tutorial )**
+
+
+
+\-> When someone like HomeController request IEmployeeRepository , then we want from asp.net core to create an instance of an implement of IEmployeeRepository which is MockEmployeeRepository and then inject that instance into a controller but bydefault dependency injection system will not able to do that
+
+\-> So because of that we have to register IEmployeeRepository and its implementation into program.cs file
+
+\-> builder.Services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>(); 
+
+with the help of above line when homecontroller request to IEmployeeRepository service of MockEmployeeRepository and then inject that instance into HomeController
+
+\-> Asp.net core provides 3 methods to register depeddency injection in dependency injection container , these method determines the lifetime of that specific registered services
+
+&#x20; 1. AddScoped<> :- This create an instance once per request within a scope and used same instance with other calls but in same web request
+
+&#x20; 2. AddTransient<> :- Each time it create an instance whenever its required
+
+&#x20; 3. AddSingleton<> :- this create instance only one time and that instance only used in whole application
 
 
 

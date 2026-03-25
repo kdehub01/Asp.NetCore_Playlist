@@ -1,5 +1,4 @@
 wwwroot\css\site.css
-wwwroot\Default.htm
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -62,6 +61,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\Default.htm
 C:\Users\MayankPal\Desktop\Asp.NetCore_Playlist\Asp.NetCore_Playlist\wwwroot\css\site.css
 C:\Users\MayankPal\Desktop\Asp.NetCore_Playlist\Asp.NetCore_Playlist\wwwroot\favicon.ico
 C:\Users\MayankPal\Desktop\Asp.NetCore_Playlist\Asp.NetCore_Playlist\wwwroot\js\site.js

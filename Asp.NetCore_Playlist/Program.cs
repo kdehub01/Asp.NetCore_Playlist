@@ -1,15 +1,16 @@
+using Asp.NetCore_Playlist.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddMvc(); // to add all mvc services we required 
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
 var app = builder.Build();
 
 //This is a method which response to an every object
 //app.Run();
-
 
 
 // Configure the HTTP request pipeline.
@@ -19,6 +20,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
 
 app.UseStaticFiles() ; // to use static files which are in present in wwwroot folder
 

@@ -7,10 +7,15 @@ namespace Asp.NetCore_Playlist.Controllers
     public class HomeController : Controller // this Controller class present in Microsoft.AspNetCore.Mvc
     {
         //Here we are using constructor to inject IEmployeeRepository which is known as constructor injection
+        
+        //This home controller is not creating an instance of IEmployeeRepository using new keyword instead of it we are injecting it into this constructor
         private readonly IEmployeeRepository _employeeRepository;
         public HomeController(IEmployeeRepository employeeRepository)
         {
             _employeeRepository = employeeRepository;
+
+            //_employeeRepository = new MockEmployeeRepository(); -> We are not doing this because its tightly bind with this controller & we have many controller also which creates an issue
+
         }
 
         public string Index()
