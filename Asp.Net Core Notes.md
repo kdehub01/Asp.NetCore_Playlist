@@ -368,11 +368,15 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
+**Lecture :- ( Sections in layout page in ASP NET Core MVC )**
 
 
 
+\-> It provides a way to organize where certain element would be place
 
+\-> @RenderSection("newsection" , false) :- basically u can used for some specific section and using true or false means not mandatory to create in specific view file
 
+\-> @section newsection :- to create section in specific view file
 
 
 
