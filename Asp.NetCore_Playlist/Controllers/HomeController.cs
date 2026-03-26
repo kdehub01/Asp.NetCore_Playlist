@@ -1,4 +1,5 @@
 using Asp.NetCore_Playlist.Models;
+using Asp.NetCore_Playlist.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -34,6 +35,13 @@ namespace Asp.NetCore_Playlist.Controllers
         public ActionResult MethodM1()
         {
             Employee data = _employeeRepository.GetEmployee(1);
+
+            HomeMethodM1ViewModel hmvm = new HomeMethodM1ViewModel()
+            {
+                Employee = _employeeRepository.GetEmployee(2),
+                PageTitle = "something went wrong"
+
+            };
             return View(data);
         }
 

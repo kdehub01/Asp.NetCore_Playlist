@@ -322,6 +322,20 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
+**Lecture :- ( ViewModel in ASP NET Core MVC )**
+
+
+
+\-> It can be in anywhere in our project
+
+\-> To settle data b/w view \& controller
+
+\-> Basically when we wanna bind model data \& other data too in single model
+
+\-> We create viewmodel inside viewmodel folder and Its a csharph file
+
+\-> We create this when our model does not contains all the data which our view needs
+
 
 
 
