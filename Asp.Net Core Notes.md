@@ -350,6 +350,92 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
+**Lecture :- ( Layout view in asp net core mvc )**
+
+
+
+\-> Without layout view we repeat common view in so many files
+
+\-> So in layout file we define them one's and then just use path of that layout file
+
+\-> We majorly keep layout file in shared folder 
+
+\-> @RenderBody() :- this is something through which normal view file data render in layout file
+
+\-> To include this layout file we have to set path in Layout property
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

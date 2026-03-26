@@ -1,5 +1,7 @@
 ﻿@model List<Asp.NetCore_Playlist.Models.Employee>;
-
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
     @foreach(var data in Model)
 {
     <h1>Department Name : @data.Department</h1><br />
