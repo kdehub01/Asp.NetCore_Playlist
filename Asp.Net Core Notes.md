@@ -212,7 +212,7 @@
 
 \-> So because of that we have to register IEmployeeRepository and its implementation into program.cs file
 
-\-> builder.Services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>(); 
+\-> builder.Services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
 
 with the help of above line when homecontroller request to IEmployeeRepository service of MockEmployeeRepository and then inject that instance into HomeController
 
@@ -232,7 +232,7 @@ with the help of above line when homecontroller request to IEmployeeRepository s
 
 
 
-\-> A controller in mvc is class that derived fron Controller base class 
+\-> A controller in mvc is class that derived fron Controller base class
 
 \-> A name of controller class ends with Controller
 
@@ -274,7 +274,7 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
-\-> There are 3 ways to pass data from controller to view 
+\-> There are 3 ways to pass data from controller to view
 
 &#x20;  1. ViewData ( Loosely Typed )
 
@@ -288,11 +288,51 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 &#x09;       Dynamically resolved at runtime
 
-&#x20;              No compile time checking	
+&#x20;              No compile time checking
 
 \-> View is a kind of razor view in which we write C# \& html code together
 
-&#x09;       	
+
+
+
+
+**Lecture :- ( ViewBag in ASP NET Core MVC )**
+
+
+
+\-> With viewbag we use dynamic property but in viewdata we use string keys
+
+\-> No compile time checking	
+
+\-> Loosely type view
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
