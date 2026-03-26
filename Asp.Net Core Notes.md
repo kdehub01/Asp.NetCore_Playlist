@@ -340,9 +340,11 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
+**Lecture :- ( List view in asp net core mvc )**
 
 
 
+\-> Nothing just passed data in form of list and show on view through foreach loop
 
 
 

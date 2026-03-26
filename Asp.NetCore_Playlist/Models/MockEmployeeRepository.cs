@@ -17,5 +17,10 @@
         {
             return _emplist.FirstOrDefault(s=>s.Id == id);
         }
+
+        public List<Employee> GetAllEmployees()
+        {
+            return _emplist.ToList();
+        }
     }
 }

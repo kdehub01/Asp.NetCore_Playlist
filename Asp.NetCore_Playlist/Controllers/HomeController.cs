@@ -2,6 +2,7 @@ using Asp.NetCore_Playlist.Models;
 using Asp.NetCore_Playlist.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Asp.NetCore_Playlist.Controllers
 {
@@ -42,9 +43,16 @@ namespace Asp.NetCore_Playlist.Controllers
                 PageTitle = "something went wrong"
 
             };
+
+            
             return View(data);
         }
 
+        public ActionResult NewMethod()
+        {
+            var alldata = _employeeRepository.GetAllEmployees();
+            return View(alldata);
+        }
 
         public IActionResult Privacy()
         {
