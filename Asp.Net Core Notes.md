@@ -382,11 +382,17 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
+**Lecture :- ( ViewStart cshtml in ASP NET Core MVC )**
 
 
 
+\-> In this file we majorly add layout file path because to write layout file in multiple file and let suppose it needs to be change so we have to change name in all of the files , instead of it we give that file name in viewstart file
 
+\-> If layout path is also available in normal view file then it override path in viewtstart file
 
+\-> Viewstart file executed first before normal view code executes
+
+\-> If multiple viewstart file is there then first one viewtsrt will get executed
 
 
 
