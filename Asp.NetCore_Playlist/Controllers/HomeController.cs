@@ -31,6 +31,13 @@ namespace Asp.NetCore_Playlist.Controllers
            
         }
 
+        public ActionResult MethodM1()
+        {
+            Employee data = _employeeRepository.GetEmployee(1);
+            return View(data);
+        }
+
+
         public IActionResult Privacy()
         {
             return View();

@@ -310,9 +310,13 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
+**Lecture :- ( Strongly Typed View in ASP NET Core MVC )**
 
 
 
+\-> To use this we have to specify @model directive at the top
+
+\-> With the directive we use lower case 'm' \& with property upper case 'M'
 
 
 
