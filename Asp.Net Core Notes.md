@@ -398,7 +398,11 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
+**Lecture :- ( ViewImports cshtml in ASP NET Core MVC )**
 
+
+
+\-> Instead of writing full model path including project name , so instead of this we write path till models in viewimports file and rest model name can be used in specific file according to requirement
 
 
 
