@@ -410,7 +410,7 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
-\-> There are two types of routing 
+\-> There are two types of routing
 
 &#x20; 	1. Conventional Routing
 
@@ -418,91 +418,7 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 \-> When we hit on something and that hit will go to a specific method of some specific controller , thats handled through this route rules
 
-\-> app.usemvcwithdefaultroute() means it use with default route
+\-> app.usemvcwithdefaultroute() means it use with default route ( Controller \& Action method name already there )
 
 \-> app.usemvc() no configured route
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
