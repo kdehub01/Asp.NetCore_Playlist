@@ -302,7 +302,7 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 \-> With viewbag we use dynamic property but in viewdata we use string keys
 
-\-> No compile time checking	
+\-> No compile time checking
 
 \-> Loosely type view
 
@@ -358,7 +358,7 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 \-> So in layout file we define them one's and then just use path of that layout file
 
-\-> We majorly keep layout file in shared folder 
+\-> We majorly keep layout file in shared folder
 
 \-> @RenderBody() :- this is something through which normal view file data render in layout file
 
@@ -406,15 +406,21 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
+**Lecture :- ( Routing in ASP NET Core MVC )**
 
 
 
+\-> There are two types of routing 
 
+&#x20; 	1. Conventional Routing
 
+&#x09;2. Attribute Routing
 
+\-> When we hit on something and that hit will go to a specific method of some specific controller , thats handled through this route rules
 
+\-> app.usemvcwithdefaultroute() means it use with default route
 
-
+\-> app.usemvc() no configured route
 
 
 

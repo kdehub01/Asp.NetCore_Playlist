@@ -98,3 +98,4 @@ C:\Users\MayankPal\Desktop\Asp.NetCore_Playlist\Asp.NetCore_Playlist\obj\Debug\n
 C:\Users\MayankPal\Desktop\Asp.NetCore_Playlist\Asp.NetCore_Playlist\obj\Debug\net10.0\Asp.NetCore_Playlist.pdb
 C:\Users\MayankPal\Desktop\Asp.NetCore_Playlist\Asp.NetCore_Playlist\obj\Debug\net10.0\Asp.NetCore_Playlist.genruntimeconfig.cache
 C:\Users\MayankPal\Desktop\Asp.NetCore_Playlist\Asp.NetCore_Playlist\obj\Debug\net10.0\ref\Asp.NetCore_Playlist.dll
+C:\Users\MayankPal\Desktop\Asp.NetCore_Playlist\Asp.NetCore_Playlist\obj\Debug\net10.0\compressed\a3f7jenj9z-{0}-3r8b2a0bt1-3r8b2a0bt1.gz

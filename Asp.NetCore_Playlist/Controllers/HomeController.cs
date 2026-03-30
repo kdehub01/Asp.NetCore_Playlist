@@ -33,13 +33,13 @@ namespace Asp.NetCore_Playlist.Controllers
            
         }
 
-        public ActionResult MethodM1()
+        public ActionResult MethodM1(int id)
         {
             Employee data = _employeeRepository.GetEmployee(1);
 
             HomeMethodM1ViewModel hmvm = new HomeMethodM1ViewModel()
             {
-                Employee = _employeeRepository.GetEmployee(2),
+                Employee = _employeeRepository.GetEmployee(id),
                 PageTitle = "something went wrong"
 
             };
