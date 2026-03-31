@@ -449,6 +449,24 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
+**Lecture :- ( Install and use Bootstrap in ASP NET Core )**
+
+
+
+\->  There are many tools which we can use with visual studio to install client side pacakages like bower , npm and webpack etc . Instead of this we use libman manager to install these packages
+
+\-> To install these pacakages just right click on projet and then on client side library
+
+\-> We can edit version also over there of that library
+
+\-> After clicking on add these will automatically add into lib folder which is inside wwwroot folder
+
+\-> There's one more file libman.json in which version of these library will get manage \& one change done in that , it will automatically reflect in lib folder which is inside wwwroot folder
+
+\-> If u wanna clean these libraries then just right click on this .json file and clean . Same like restore option is also availiable
+
+
+
 
 
 
