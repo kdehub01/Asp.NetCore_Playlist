@@ -420,5 +420,11 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 \-> app.usemvcwithdefaultroute() means it use with default route ( Controller \& Action method name already there )
 
-\-> app.usemvc() no configured route
+\-> app.usemvc() or app.MapControllerRoute() no configured route
+
+\-> We did not required to add Controller as a prefix in route
+
+\-> Here above basically we have done conventional routing
+
+\-> To make parameter optional , just add ? at the end of paramater in program.cs where u are writing path
 
