@@ -426,5 +426,5 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 \-> Here above basically we have done conventional routing
 
-\-> To make parameter optional , just add ? at the end of paramater in program.cs where u are writing path for routing
+\-> To make parameter optional , just add ? at the end of paramater in program.cs where u are writing path for routing which is known as convetional routing
 
