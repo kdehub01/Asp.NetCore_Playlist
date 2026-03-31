@@ -6,6 +6,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Asp.NetCore_Playlist.Controllers
 {
+    
     public class HomeController : Controller // this Controller class present in Microsoft.AspNetCore.Mvc
     {
         //Here we are using constructor to inject IEmployeeRepository which is known as constructor injection
@@ -33,6 +34,7 @@ namespace Asp.NetCore_Playlist.Controllers
            
         }
 
+        [Route("Home/newmet/{id}")]
         public ActionResult MethodM1(int id)
         {
             Employee data = _employeeRepository.GetEmployee(1);
@@ -64,5 +66,16 @@ namespace Asp.NetCore_Playlist.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        [Route("")]
+        [Route("Home")]
+        [Route("Home/Index")]
+
+        public ActionResult NewRoutingMethod()
+        {
+            return View();
+        }
+
+
     }
 }

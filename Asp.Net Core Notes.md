@@ -428,3 +428,96 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 \-> To make parameter optional , just add ? at the end of paramater in program.cs where u are writing path for routing which is known as convetional routing
 
+
+
+
+
+**Lecture :- ( Attribute Routing in ASP NET Core MVC )**
+
+
+
+\-> For this we use Route() attribute on controller to define routing for our application
+
+\-> If we are using conventional routing , then it does not matter whatever we are using name of controller or method name . Only matter is whatever we are writing inside route attribute
+-> If u wanna use some specific view then use absolute path of that view in view()
+
+\-> We can apply route attribute on controller class too , to avoid repetition of writing controller name again \& again
+
+\-> When we are using just '\\' or \~\\ in route attribute then at that time it does not combined with specific method
+
+\-> Convetional routing supports token replacement also like this \[Route("controller")] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
