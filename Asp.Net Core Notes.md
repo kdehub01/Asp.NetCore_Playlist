@@ -445,7 +445,7 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 \-> When we are using just '\\' or \~\\ in route attribute then at that time it does not combined with specific method
 
-\-> Convetional routing supports token replacement also like this \[Route("controller")] 
+\-> Convetional routing supports token replacement also like this \[Route("controller")]
 
 
 
@@ -468,6 +468,24 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
+
+**Lecture :- ( AddSingleton vs AddScoped vs AddTransient )**
+
+
+
+\-> To inject service into view , for that we use @injective in a view
+
+
+
+**AddSingleton :-** In this when first object or instace is created of that class which implements functionality of an interface , that will going to use throughout
+
+
+
+**AddScoped :-** Basically in this only same instance or object is going to used inside that single request only , once another request comes another object will get creates
+
+
+
+**AddTransient :-** When this service is used during every http request , every instance or object is created . In this basically changes done by controller not going to seen by view and same vice versa
 
 
 
