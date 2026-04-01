@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2/SFZihd4t8=",
+  "dgSpecHash": "676GntVFyhg=",
   "success": true,
   "projectFilePath": "C:\\Users\\MayankPal\\Desktop\\Asp.NetCore_Playlist\\Asp.NetCore_Playlist\\Asp.NetCore_Playlist.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\MayankPal\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.5\\microsoft.entityframeworkcore.10.0.5.nupkg.sha512",
+    "C:\\Users\\MayankPal\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.5\\microsoft.entityframeworkcore.abstractions.10.0.5.nupkg.sha512",
+    "C:\\Users\\MayankPal\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.5\\microsoft.entityframeworkcore.analyzers.10.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

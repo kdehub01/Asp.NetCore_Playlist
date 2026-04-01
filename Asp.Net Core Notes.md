@@ -555,7 +555,7 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
-**Entity Framework Core Pacakage :-**
+**Entity Framework Core Package :-**
 
 1. Microsoft.EntityFrameworkCore.SqlServer
 2. Microsft.EntityFrameworkCore.Relation
@@ -567,7 +567,17 @@ If we installed Microsoft.EntityFrameworkCore.SqlServer , then remaining were au
 
 
 
+**Lecture :- ( DbContext in entity framework core )**
 
+\-> This is a class which we use in our application to our database
+
+\-> This class we use to save \& retrieve data from our db
+
+\-> To make our class behave like dbcontext class we derived it from  DbContext 
+
+\-> To do any sql work , it needs instance of dbContext options class
+
+\-> We need a DbSet<> property for each table , procedure or view which we have in our db
 
 
 
