@@ -491,19 +491,53 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
+**Lecture :- ( Introduction to entity framework core )**
 
 
 
+\-> It's also known as EF Core
+
+\-> ORM Tool ( Object Relational Mapper )
+
+\-> Lightweight , Opensource \& Extensible
+
+\-> Microsoft's official data access platform
+
+\-> It enables developers to works with objects
 
 
 
+**Use of an orm :-**
+
+\-> Without orm we have to write a lot of data access code to retrieve \& update data of something like an employee
 
 
 
+\-> With the help of EF Core , we did not required to write data access code which works between our db \& model class
 
 
 
+\-> Ef Core supports both db first \& code first approach . BTW database first approach have every less functionalities which it supports
 
+
+
+**Code-First Approach** :- 
+
+\-> With this first we create application domain classess ( models ) \& db context class 
+
+\-> With the help of this EF Core it will create tables \& etc in our database
+
+
+
+**Database-First Approach :-** 
+
+\-> With the help of ef core it will create classess \& db context class in our code
+
+
+
+\-> EF Core is able to do all of these things beccause of these database providers
+
+\-> Database Providers sits between EF Core \& Database
 
 
 
