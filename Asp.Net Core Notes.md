@@ -543,6 +543,110 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
+**Lecture :- ( Install entity framework core in visual studio )**
+
+
+
+\-> Meta pacakages does not have their own code , they only contains list of other packages
+
+\-> application which is on Asp.net core 2.0 or above version will contained EF core already installed as part of meta pacakage
+
+\-> EF Core is usually required in Data Access Layer Project which is a class library project and it does not have these meta pacakages 
+
+
+
+**Entity Framework Core Pacakage :-**
+
+1. Microsoft.EntityFrameworkCore.SqlServer
+2. Microsft.EntityFrameworkCore.Relation
+3. Microsoft.EntityFrameworkCore
+
+First one have dependency on second , second one on third.
+
+If we installed Microsoft.EntityFrameworkCore.SqlServer , then remaining were automatically installed by themself
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
