@@ -623,11 +623,22 @@ builder.Services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(
 
 
 
+**Lecture :- ( Entity framework core migrations )**
 
 
 
+\-> Migration is a feature of EF core which keep database schema \& application model classess or Entity classess in sync
 
+\-> To work with migration first we have to create that through package manager console or .net core cli ( opensource )
 
+\-> To get help :- get-help ( about\_entityframeworkcore ) in bracket it can be anything whatever related and no brackets include
+
+\-> For dbcontext register in program.cs we use addscope because every time new request create
+
+Steps to follow :-
+
+1. add-migration ( to add migration )
+2. update-database ( to update database ) ( this first create db \& then tables )
 
 
 

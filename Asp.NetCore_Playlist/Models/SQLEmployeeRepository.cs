@@ -18,13 +18,13 @@
             }
             return employee;
         }
-        public Employee Add(Employee employee)
-        {
-            _appdbcontext.Employees.Add(employee);
-            _appdbcontext.SaveChanges();
-            return employee;
+        //public Employee Add(Employee employee)
+        //{
+        //    _appdbcontext.Employees.Add(employee);
+        //    _appdbcontext.SaveChanges();
+        //    return employee;
             
-        }
+        //}
 
         public Employee Update(Employee employee)
         {
