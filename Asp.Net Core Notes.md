@@ -593,6 +593,18 @@ If we installed Microsoft.EntityFrameworkCore.SqlServer , then remaining were au
 
 \-> For this we do configuration in program.cs file
 
+\-> AddDbContextPool<> to configure our context class with sql server
+
+builder.Services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("EmployeeDBConnection")));
+
+\-> Basically in above code we are just registering our context file through DI in program.cs and then after we are telling which database provider need to use and after just using connectionstring through configuration
+
+
+
+
+
+
+
 
 
 
