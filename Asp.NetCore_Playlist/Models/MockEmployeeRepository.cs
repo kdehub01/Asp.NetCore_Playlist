@@ -22,5 +22,26 @@
         {
             return _emplist.ToList();
         }
+
+        public Employee Delete(int id)
+        {
+            Employee employee = _emplist.FirstOrDefault(s=>s.Id ==id);  
+            if(employee!=null)
+            {
+                _emplist.Remove(employee);
+            }
+            return employee;
+        }
+        public Employee Update(Employee employee)
+        {
+            Employee _employee = _emplist.FirstOrDefault(s => s.Id == employee.Id);
+            if (employee != null)
+            {
+                _employee.Name = employee.Name;
+                _employee.Department = employee.Department;
+                _employee.Email = employee.Email;
+            }
+            return _employee;
+        }
     }
 }

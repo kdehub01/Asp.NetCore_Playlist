@@ -603,9 +603,21 @@ builder.Services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(
 
 
 
+**Lecture :- ( Repository pattern in asp net core )**
 
 
 
+\-> It's an abstraction of data access layer
+
+\-> It hides how data is getting stored or retrieve from the datasource or database
+
+\-> Basically we ca have multiple repository which we are using to store \& retrieving data from different sources
+
+\-> employees.State = Microsoft.EntityFrameworkCore.EntityState.Modified; this is used for showing status
+
+\-> And let suppose we are using multiple repository , so controller will decide based on instance of Interface which is mentioned over there and which instance of an class is going to use that mentioned in program.cs file 
+
+\-> We are using this because of this loosely coupled and easy to use
 
 
 
