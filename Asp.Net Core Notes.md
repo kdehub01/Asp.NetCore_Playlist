@@ -521,15 +521,15 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 
 
-**Code-First Approach** :- 
+**Code-First Approach** :-
 
-\-> With this first we create application domain classess ( models ) \& db context class 
+\-> With this first we create application domain classess ( models ) \& db context class
 
 \-> With the help of this EF Core it will create tables \& etc in our database
 
 
 
-**Database-First Approach :-** 
+**Database-First Approach :-**
 
 \-> With the help of ef core it will create classess \& db context class in our code
 
@@ -551,7 +551,7 @@ no of levels up , u have to add that number of dots like for 2 level up 4 dots n
 
 \-> application which is on Asp.net core 2.0 or above version will contained EF core already installed as part of meta pacakage
 
-\-> EF Core is usually required in Data Access Layer Project which is a class library project and it does not have these meta pacakages 
+\-> EF Core is usually required in Data Access Layer Project which is a class library project and it does not have these meta pacakages
 
 
 
@@ -573,7 +573,7 @@ If we installed Microsoft.EntityFrameworkCore.SqlServer , then remaining were au
 
 \-> This class we use to save \& retrieve data from our db
 
-\-> To make our class behave like dbcontext class we derived it from  DbContext 
+\-> To make our class behave like dbcontext class we derived it from  DbContext
 
 \-> To do any sql work , it needs instance of dbContext options class
 
@@ -583,35 +583,15 @@ If we installed Microsoft.EntityFrameworkCore.SqlServer , then remaining were au
 
 
 
+**Lecture :- ( Using sql server with entity framework core )**
 
 
 
+\-> SQL Server is a kind of database provider which we are going to use with EF core
 
+\-> Basically these database providers are kind of nuget packages
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\-> For this we do configuration in program.cs file
 
 
 

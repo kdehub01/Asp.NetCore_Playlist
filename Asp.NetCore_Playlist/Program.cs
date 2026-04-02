@@ -7,6 +7,13 @@ builder.Services.AddMvc(); // to add all mvc services we required
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
+
+// To configure sql sever with ef core & to regsiter this class with asp.net core dependency injection , so for that we do over here
+// Here AddDbContextPool checks if there's alraedy instance created then use that only instaed of creating brand new isntance 
+//builder.Services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer());
+
+
+
 var app = builder.Build();
 
 //This is a method which response to an every object
